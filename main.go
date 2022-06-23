@@ -1,7 +1,3 @@
-// ⚡️ Fiber is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://github.com/gofiber/fiber
-// 📌 API Documentation: https://docs.gofiber.io
-
 package main
 
 import (
@@ -28,5 +24,5 @@ func main() {
 
 // Handler
 func hello(c *fiber.Ctx) error {
-	return c.SendString("I made a ☕ for you!")
+	return c.SendString("Hello world!")
 }
